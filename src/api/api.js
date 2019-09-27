@@ -60,7 +60,7 @@ axios.interceptors.response.use(
 	})
 
 
-let hosturl ='https://h.fengniaotuangou.cn/'
+let hosturl ='https://cheng.iceblueworld.com/'
 
 
 let base = hosturl+ 'v1'
