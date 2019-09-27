@@ -1,6 +1,6 @@
 const qiniu={
 
-	token:'v8HMJl-CM2EBkkZVsRsVKsYKI5vv-NHP4O9h4MTX:AQxfYNcb46udJNuCqsIgWz4Xec8=:eyJzY29wZSI6InB5d29tYW4iLCJkZWFkbGluZSI6MTg2MjY0NzE5OH0=',
+	token:'v5VoyGcwv4HHd_ILwX-L_6TrTScSgPAWDj1xPRs7:gd67hwd2TMYkaDiXldyCkxjEonE=:eyJzY29wZSI6ImNjbWFpYmVpIiwiZGVhZGxpbmUiOjE1Njk1ODI3ODV9',
 
 	upurl:'https://upload-z2.qiniup.com',
 
