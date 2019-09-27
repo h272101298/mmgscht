@@ -4,8 +4,8 @@ const qiniu={
 
 	upurl:'https://upload-z2.qiniup.com',
 
-
-	showurl:'https://qi.pywoman.com/'
+	showurl:'https://xiao.iceblueworld.com/'
+	//showurl:'https://qi.pywoman.com/'
 	// showurl:'https://qu.qdbnm.com/'
 	// showurl:'http://pam213sin.bkt.clouddn.com/'
 };
