@@ -38,6 +38,10 @@
         <el-form-item label="佣金：" prop="brokerage">
           <el-input v-model="newone.brokerage" placeholder="请输入佣金" style="width:500px;"><template slot="append">元</template></el-input>
         </el-form-item>
+        <el-form-item label="显示会员价：" prop="show_member">
+         <el-switch v-model="newone.show_member" active-value="1" inactive-value="0" active-text="显示" inactive-text="不显示"></el-switch>
+       </el-form-item>
+        </el-form-item>
 
         <el-form-item label="规格：" prop="fixed" v-if="!goodid">
          <el-switch v-model="newone.fixed" active-value="2" inactive-value="1" active-text="多规格" inactive-text="单规格"></el-switch>
@@ -146,7 +150,8 @@
           logo:'../static/images/default1.png',
           images:[],
           detail:'',
-          problem:''
+          problem:'',
+          show_member:0
         },
 
         categories:[],
@@ -256,6 +261,7 @@ methods:{
         this.newone.type_id=res.data.type_id;
         this.categories=res.data.categories;
         this.newone.brokerage=res.data.brokerage;
+        this.newone.show_member = res.data.show_member
 
 
         this.type1=res.data.typeArray[0]
@@ -444,6 +450,7 @@ methods:{
           fixed:this.newone.fixed,
           type_id:this.newone.type_id,
           brokerage:this.newone.brokerage,
+          show_member:this.newone.show_member
         };
 
         var aaa =this.newone.images
